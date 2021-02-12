@@ -29,6 +29,7 @@
     <div class="container">
 
         <!-- Heading -->
+		<div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Portfolio
@@ -39,6 +40,7 @@
         <!-- /.row -->
 
         <!-- Projects Row -->
+		<div class="container">
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="City-1/Index.html">
@@ -56,6 +58,7 @@
         <!-- /.row -->
 
         <!-- Projects Row -->
+		<div class="container">
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="City-3/Index.html">
@@ -73,6 +76,7 @@
 
 
         <!-- Projects Row -->
+		<div class="container">
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="City-6/Index.html">
@@ -90,6 +94,7 @@
 		
 		
 		<!-- Projects Row -->
+		<div class="container">
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="City-8/Index.html">
@@ -106,6 +111,7 @@
         </div>
 		
 		<!-- Projects Row -->
+		<div class="container">
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="City-Pangea/Index.html">
