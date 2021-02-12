@@ -1,78 +1,81 @@
-<!-- Template by Quackit.com -->
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <title>City History</title>
+body {
+  margin: 0;
+  font-family: Arial;
+}
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+.header {
+  text-align: center;
+  padding: 32px;
+}
 
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
-    <link href="css/custom.css" rel="stylesheet">
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+.column img {
+  margin-top: 12px;
+}
 
-</head>
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
 <body>
-
-    <!-- Content -->
-    <div class="container">
-
-        <!-- Projects Row -->
-		<div class="row">
-			<div class="column">
-				<a href="City-1/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594156531974145/City_1.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-				<a href="City-3/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594160050077726/City_3.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-				<a href="City-6/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594162897748018/City_6.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-				<a href="City-8/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594165179449374/City_8.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-			</div>
-			<div class="column">
-				<a href="City-2/index.html#/20763/64/44816/-4/city2%20-%20overworld/city2">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594158352302120/City_2.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-				<a href="City-5/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594161686249472/City_5.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-				<a href="City-7/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594163904774174/City_7.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-				<a href="City-Ult/index.html">
-                    <img src="https://cdn.discordapp.com/attachments/802656252752035862/809594167474520104/City_Ult.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-                </a>
-			</div>
+	<!-- Projects Row -->
+	<div class="row">
+		<div class="column">
+			<a href="City-1/index.html">
+				<img src="City_1.png" alt="" width="100%">
+			</a>
+			<a href="City-3/index.html">
+				<img src="City_3.png" alt="" width="100%">
+			</a>
+			<a href="City-6/index.html">
+				<img src="City_6.png" alt="" width="100%">
+			</a>
+			<a href="City-8/index.html">
+				<img src="City_8.png" alt="" width="100%">
+			</a>
 		</div>
-		
-		<a href="City-Pangea/index.html">
-			<img class="img-responsive" src="https://cdn.discordapp.com/attachments/802656252752035862/809594166644441100/City_Pangea.png" alt="" position="absolute" left="auto" right="auto" width="50%">
-        </a>
-    </div>
-    <!-- /.container -->
-
+		<div class="column">
+			<a href="City-2/index.html#/20763/64/44816/-4/city2%20-%20overworld/city2">
+				<img src="City_2.png" alt="" width="100%">
+			</a>
+			<a href="City-5/index.html">
+				<img src="City_5.png" alt="" width="100%">
+			</a>
+			<a href="City-7/index.html">
+				<img src="City_7.png" alt="" width="100%">
+			</a>
+			<a href="City-Ult/index.html">
+				<img src="City_Ult.png" alt="" width="100%">
+			</a>
+		</div>
+	</div>
 	
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	<a href="City-Pangea/index.html">
+		<img src="City_Pangea.png" alt="" width="50%" class="center">
+	</a>
 
 </body>
-
 </html>
